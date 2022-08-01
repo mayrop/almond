@@ -1,0 +1,9 @@
+exclusions: list()
+exclude: "# nolint"
+exclude_start: "# nolint start"
+exclude_end: "# nolint end"
+linters: linters_with_defaults(
+  line_length_linter(120),
+  object_usage_linter = NULL
+  )
+
